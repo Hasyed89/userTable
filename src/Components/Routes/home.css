@@ -1,0 +1,74 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+.container h1{
+  color: black;
+  font-size: 6rem;
+}
+.card h1 {
+  margin: 16px;
+  font-size: 2rem;
+  color: #ccc;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 2s linear;
+  position: relative;
+}
+img{
+  width: 500px;
+  height: 500px;
+  border-radius: 250px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+form{
+  justify-content: center;
+  margin-left: 10rem;
+
+}
+input{
+  display: block;
+  padding: 2rem 8rem;
+  margin: 2rem;
+}
+form button{
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 14rem;
+  font-size: 18px;
+  margin-right: 4rem;
+
+
+}

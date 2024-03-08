@@ -1,0 +1,51 @@
+.content ul {
+  list-style-type: none !important;
+  display: flex;
+  flex-direction: row;
+}
+li h3 {
+  margin-top: 1rem;
+}
+li{
+  display: inline-flex;
+  flex-direction: row;
+  margin-right: 1rem;
+}
+.btn-delete{
+  margin-left: 11rem;
+
+}
+.user-details{
+  display: inline-block;
+  padding:2rem;
+  text-align: center;
+
+}
+.admin-table {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 4rem 0;
+}
+.admin-subtitle {
+  font-size: 3.2rem;
+}
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  margin-left: 11rem;
+
+}
+.delete-icon {
+  font-size: 1.6rem;
+  color: #f12711;
+  filter: drop-shadow(0.2rem 0.2rem 0.5rem rgb(255 0 0 / 0.2));
+  cursor: pointer;
+  /* margin-left: 11rem; */
+
+}
+@media screen and (max-width: 998px) {
+  .admin-subtitle {
+    margin-bottom: 1.6rem;
+  }
+}

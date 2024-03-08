@@ -1,0 +1,20 @@
+nav{
+  margin: 3rem 0;
+  background-color: #f9f9f9;
+  padding: 1rem 0;
+}
+nav .menuItems{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+nav .menuItems li {
+  margin: 1.6rem;
+}
+nav .menuItems li a {
+  text-decoration: none;
+  color: #8f8f8f;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
